@@ -3761,7 +3761,7 @@ input, select, textarea {
 			}
 
 			#sidebar nav a:before {
-				background: #3c2c62;
+				background: #18224a;
 			}
 
 			#sidebar nav a:after {
@@ -3868,14 +3868,43 @@ input, select, textarea {
 				display: none;
 			}
 
+      .avatar {
+        display: none;
+      }
+
 		}
+
+/* Added to template */
+.avatar {
+  margin-left: 20%;
+}
+
+.intro-box {
+  display: flex;
+  height: 100%;
+}
+
+.intro-logo {
+  font-size: 170%;
+}
+
+.intro-avatar {
+  display: flex;
+  float: right;
+  width: 30%;
+  height: 100%;
+}
+
+.toolbelt {
+  font-size: 500%;
+}
 
 /* Intro */
 
 	#intro {
 		background-attachment: fixed;
-		background-image: url("images/moving-net-back.gif");
-		background-position: top right;
+		background-image: url("https://imgur.com/rW0OeE0.png");
+		background-position: 100% 50%;
 		background-repeat: no-repeat;
 		background-size: 100% 100%;
 	}

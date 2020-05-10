@@ -10,6 +10,10 @@
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
+
+    <!-- Icons -->
+    <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
+    <!-- ^ Icons ^ -->
     <link rel="icon" href="images/k-icon-3.png">
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
 	</head>
@@ -34,12 +38,19 @@
 
 				<!-- Intro -->
 					<section id="intro" class="wrapper fullscreen fade-up">
-						<div class="inner">
-							<h1>Kane Two Feathers</h1>
-							<p>Full stack developer, musician, audio engineer, community leader, problem solver</p>
-							<ul class="actions">
+						<div class="inner intro-box">
+              <div class="">
+							  <h1>Kane Two Feathers</h1>
+						  	<p>Full stack developer, musician, audio engineer, Community leaader, eager to help solve the problems of the modern world</p>
+						  	<ul class="actions">
 								<li><a href="images/software-engineer-resume.pdf" target="_blank" class="button scrolly">Resume</a></li>
-							</ul>
+                <li class="intro-logo"><a target="_blank" href="https://github.com/ArKaneVision" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
+                <li class="intro-logo"><a target="_blank" href="https://www.linkedin.com/in/kanetwofeathers/" class="icon brands fa-linkedin-in"><span class="label">LinkedIn</span></a></li>
+						  	</ul>
+              </div>
+              <div class="intro-avatar">
+                <img class="avatar" src="https://imgur.com/SWmoWPp.png" height="250" width="250" >
+              </div>
 						</div>
 					</section>
 
@@ -60,7 +71,7 @@
 							</div>
 						</section>
 						<section>
-							<a href="#" class="image"><img src="images/pic02.jpg" alt="" data-position="top center" /></a>
+							<a href="#" class="image"><img src="https://imgur.com/M8z6Hfj.png" alt="" data-position="top center" /></a>
 							<div class="content">
 								<div class="inner">
 									<h2>Virtuoso</h2>
@@ -74,7 +85,7 @@
 							</div>
 						</section>
 						<section>
-							<a href="#" class="image"><img src="images/pic03.jpg" alt="" data-position="25% 25%" /></a>
+							<a href="#" class="image"><img src="https://imgur.com/TxFegUE.png" alt="" data-position="25% 25%" /></a>
 							<div class="content">
 								<div class="inner">
 									<h2>Tome</h2>
@@ -111,8 +122,34 @@
                 My focus is perfecting the ability to adapt to these evolutions and to learn how to use the right tools for any given job.
                 These are some of the tools I have learned so far.
               </p>
-							<div class="features">
-								<section>
+              <div class="toolbelt">
+                <i class="devicon-javascript-plain colored" data-toggle="tooltip" data-placement="top" title="JavaScript"></i>
+                <i class="devicon-express-original colored" data-toggle="tooltip" data-placement="top" title="Express"></i>
+                <i class="devicon-react-original colored" data-toggle="tooltip" data-placement="top" title="React"></i>
+                <img src="https://img.icons8.com/ios/110/000000/ableton.png" data-toggle="tooltip" data-placement="top" title="Ableton Live"/>
+                <i class="devicon-ruby-plain colored" data-toggle="tooltip" data-placement="top" title="Ruby"></i>
+                <i class="devicon-rails-plain colored" data-toggle="tooltip" data-placement="top" title="Ruby on Rails"></i>
+                <i class="devicon-git-plain colored" data-toggle="tooltip" data-placement="top" title="Git"></i>
+                <i class="devicon-github-plain colored" data-toggle="tooltip" data-placement="top" title="Github"></i>
+                <i class="devicon-html5-plain colored" data-toggle="tooltip" data-placement="top" title="HTML 5"></i>
+                <i class="devicon-bootstrap-plain colored" data-toggle="tooltip" data-placement="top" title="Bootstrap"></i>
+                <i class="devicon-css3-plain colored" data-toggle="tooltip" data-placement="top" title="CSS 3"></i>
+                <i class="devicon-postgresql-plain colored" data-toggle="tooltip" data-placement="top" title="PostSQL"></i>
+                <i class="devicon-jquery-plain colored" data-toggle="tooltip" data-placement="top" title="JQuery"></i>
+                <i class="devicon-amazonwebservices-original colored" data-toggle="tooltip" data-placement="top" title="Amazon Web Services"></i>
+                <i class="devicon-heroku-original" data-toggle="tooltip" data-placement="top" title="Heroku"></i>
+                <img src="https://img.icons8.com/color/110/000000/autodesk.png" data-toggle="tooltip" data-placement="top" title="Autodesk"/>
+                <i class="devicon-nodejs-plain colored" data-toggle="tooltip" data-placement="top" title="Node.js"></i>
+                <i class="devicon-python-plain colored" data-toggle="tooltip" data-placement="top" title="Python"></i>
+                <i class="devicon-visualstudio-plain colored" data-toggle="tooltip" data-placement="top" title="Visual Studio"></i>
+                <i class="devicon-ubuntu-plain colored" data-toggle="tooltip" data-placement="top" title="Ubuntu"></i>
+                <i class="devicon-windows8-original colored" data-toggle="tooltip" data-placement="top" title="Windows"></i>
+                <i class="devicon-apple-original colored" data-toggle="tooltip" data-placement="top" title="Apple"></i>
+                <i class="devicon-mongodb-plain colored" data-toggle="tooltip" data-placement="top" title="MongoDB"></i>
+                <img src="https://img.icons8.com/color/110/000000/audacity.png" data-toggle="tooltip" data-placement="top" title="Audacity"/>
+              </div>
+							<!-- <div class="features"> -->
+								<!-- <section>
 									<span class="icon solid major fa-code"></span>
 									<h3>Lorem ipsum amet</h3>
 									<p>Phasellus convallis elit id ullam corper amet et pulvinar. Duis aliquam turpis mauris, sed ultricies erat dapibus.</p>
@@ -121,31 +158,11 @@
 									<span class="icon solid major fa-lock"></span>
 									<h3>Aliquam sed nullam</h3>
 									<p>Phasellus convallis elit id ullam corper amet et pulvinar. Duis aliquam turpis mauris, sed ultricies erat dapibus.</p>
-								</section>
-								<section>
-									<span class="icon solid major fa-cog"></span>
-									<h3>Sed erat ullam corper</h3>
-									<p>Phasellus convallis elit id ullam corper amet et pulvinar. Duis aliquam turpis mauris, sed ultricies erat dapibus.</p>
-								</section>
-								<section>
-									<span class="icon solid major fa-desktop"></span>
-									<h3>Veroeros quis lorem</h3>
-									<p>Phasellus convallis elit id ullam corper amet et pulvinar. Duis aliquam turpis mauris, sed ultricies erat dapibus.</p>
-								</section>
-								<section>
-									<span class="icon solid major fa-link"></span>
-									<h3>Urna quis bibendum</h3>
-									<p>Phasellus convallis elit id ullam corper amet et pulvinar. Duis aliquam turpis mauris, sed ultricies erat dapibus.</p>
-								</section>
-								<section>
-									<span class="icon major fa-gem"></span>
-									<h3>Aliquam urna dapibus</h3>
-									<p>Phasellus convallis elit id ullam corper amet et pulvinar. Duis aliquam turpis mauris, sed ultricies erat dapibus.</p>
-								</section>
-							</div>
-							<ul class="actions">
+								</section> -->
+							<!-- </div> -->
+							<!-- <ul class="actions">
 								<li><a href="generic.html" class="button">Learn more</a></li>
-							</ul>
+							</ul> -->
 						</div>
 					</section>
 

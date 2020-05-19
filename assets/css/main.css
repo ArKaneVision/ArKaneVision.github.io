@@ -3876,6 +3876,10 @@ input, select, textarea {
   background: linear-gradient(90deg, rgba(108,49,75,1) 0%, rgba(39,66,98,1) 100%);
 }
 
+/* .contact {
+  display: flex;
+} */
+
 .tech-build-icons {
   margin-bottom: 10px;
 }

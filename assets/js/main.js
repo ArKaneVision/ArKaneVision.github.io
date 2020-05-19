@@ -109,9 +109,28 @@
 							}
 						});
 
-				});
+				})
 
 		}
+
+  // submit message form
+
+  $('#submit-message').on('click', submitForm)
+
+  function submitForm () {
+    const portfolioEmail = {
+      name: $('#name').val(),
+      email: $('#email').val(),
+      message: $('#message').val()
+    }
+    console.log(portfolioEmail)
+    $.ajax({
+      url: config.apiUrl + '/sign-up',
+      method: 'POST',
+      data
+    // data: data
+    })
+  }
 
 	// Scrolly.
 		$('.scrolly').scrolly({

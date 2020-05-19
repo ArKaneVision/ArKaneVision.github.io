@@ -3063,14 +3063,6 @@ input, select, textarea {
 				opacity: 1;
 			}
 
-		.spotlights > section:nth-child(2) {
-			background-color: rgba(0, 0, 0, 0.05);
-		}
-
-		.spotlights > section:nth-child(3) {
-			background-color: rgba(0, 0, 0, 0.1);
-		}
-
 		.spotlights > section.inactive > .image:before,
 		body.is-preload .spotlights > section > .image:before {
 			opacity: 1;
@@ -3875,6 +3867,19 @@ input, select, textarea {
 		}
 
 /* Added to template */
+
+.onSection {
+  background: linear-gradient(90deg, rgba(134,64,95,1) 0%, rgba(54,91,134,1) 100%);
+}
+
+.offSection {
+  background: linear-gradient(90deg, rgba(108,49,75,1) 0%, rgba(39,66,98,1) 100%);
+}
+
+.tech-build-icons {
+  margin-bottom: 10px;
+}
+
 .avatar {
   margin-left: 20%;
 }

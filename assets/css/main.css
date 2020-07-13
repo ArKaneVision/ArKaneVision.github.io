@@ -3880,6 +3880,15 @@ input, select, textarea {
   display: flex;
 } */
 
+.img-link, img{
+   text-decoration: none !important;
+   border:0px !important;
+   outline:none;
+   border-width: 0px;
+   outline-width:0px;
+   border-bottom: none;
+}
+
 .tech-build-icons {
   margin-bottom: 10px;
 }
@@ -3895,6 +3904,11 @@ input, select, textarea {
 
 .intro-logo {
   font-size: 170%;
+}
+
+.soundcloud {
+  width: 40px;
+  height: 40px;
 }
 
 .intro-avatar {

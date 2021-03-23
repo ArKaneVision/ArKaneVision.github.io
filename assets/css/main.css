@@ -3922,6 +3922,11 @@ input, select, textarea {
   font-size: 500%;
 }
 
+.music-img {
+  max-width:110px;
+  max-height:110px;
+}
+
 /* Intro */
 
 	#intro {
